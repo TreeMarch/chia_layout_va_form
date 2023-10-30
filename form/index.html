@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Poetry Workshopps</h1>
+    <p>
+      We will be conducting a number of poetry workshops and symposiums
+      throughhout the year .
+    </p>
+    <p>Please note that the following events are free to members:</p>
+    <ul>
+      <li>A Poetic Perspective</li>
+      <li>Walt Whiteman at War</li>
+      <li>Found poems and Outsider Poetry</li>
+    </ul>
+    <table>
+      <tr class="head">
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+      </tr>
+      <tr>
+        <th>A Poetic Perspective</th>
+        <td>
+          Sat, 4 Feb 2012 <br />
+          11am - 2pm
+        </td>
+        <td>
+          Sat, 3 Mar 2012 <br />
+          11am - 2pm
+        </td>
+        <td>
+          Sat, 17 Mar 2012 <br />
+          11am - 2pm
+        </td>
+      </tr>
+      <tr class="even">
+        <th>Walt Whiteman at War</th>
+        <td>
+          Sat, 7 Apr 2012 <br />
+          11am - 1pm
+        </td>
+        <td>
+          Sat, 5 May 2012 <br />
+          11am - 1pm
+        </td>
+        <td>
+          Sat, 19 May 2012 <br />
+          11am - 1pm
+        </td>
+      </tr>
+      <tr>
+        <th>Found poems &amp; Outsider Poetry</th>
+        <td>
+          Sat, 4 Feb 2012 <br />
+          11am - 2pm
+        </td>
+        <td>
+          Sat, 3 Mar 2012 <br />
+          11am - 2pm
+        </td>
+        <td>
+          Sat, 17 Mar 2012 <br />
+          11am - 2pm
+        </td>
+      </tr>
+      <tr class="even">
+        <th>Natural Death: An Exploration</th>
+        <td>
+          Sat, 4 Aug 2012 <br />
+          11am - 4pm
+        </td>
+        <td>
+          Sat, 8 Sep 2012 <br />
+          11am - 4pm
+        </td>
+        <td>
+          Sat, 15 Sep 2012 <br />
+          11am - 4pm
+        </td>
+      </tr>
+    </table>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Register your interest</legend>
+        <p>
+          <label for="name" class="title">Your name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="name" class="title">Your email:</label>
+          <input type="email" name="email" id="email" />
+        </p>
+        <!-- --------------------------------------------------------------------- -->
+        <p>
+          <label for="location" class="title">Your closest center:</label>
+          <select name="location" id="location">
+            <option value="ny">New York</option>
+            <option value="il">Chicago</option>
+            <option value="ca">San Francisco</option>
+          </select>
+        </p>
+
+        <span class="title">Are you a member?</span>
+        <lable><input type="radio" name="member" value="yes" />Yes</lable>
+        <lable><input type="radio" name="member" value="no" />No</lable>
+      </fieldset>
+      <div class="submit"><input type="submit" value="Register" /></div>
+    </form>
+  </body>
+</html>
